@@ -1,5 +1,6 @@
 {
-  "name": "3d",
+  "name": "3d-portfolio",
+  "homepage": "https://ak-015.github.io/3d-portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,13 +8,16 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.4",
     "@react-three/fiber": "^9.3.0",
     "@tailwindcss/vite": "^4.1.12",
     "cobe": "^0.6.4",
+    "gh-pages": "^6.3.0",
     "maath": "^0.10.8",
     "motion": "^12.23.12",
     "react": "^19.1.1",
