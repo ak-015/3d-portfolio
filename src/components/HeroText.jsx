@@ -28,7 +28,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Ankit Kumar a 
+            Ankit Kumar
           </motion.p>
           <motion.div
             variants={variants}
@@ -36,6 +36,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.5 }}
           >
+            <p className="text-5xl font-medium text-neutral-300 inline-block">a&nbsp;</p>
             <FlipWords
               words={words}
               className="font-black text-white text-6xl"

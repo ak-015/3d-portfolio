@@ -1,4 +1,3 @@
-import React from "react";
 import { motion, useScroll, useSpring, useTransform } from "motion/react";
 
 const ParallaxBackground = () => {
